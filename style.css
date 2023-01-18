@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.error{
+    width: 100%;
+    text-align: center;
+    color: rgb(241, 38, 38);
+    font-weight: bold;
+}
+h1{
+    width: 100%;
+    text-align: center;
+    font-weight: lighter;
+}
+form{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+}
+input{
+    margin-right: 5px;
+    padding: 10px;
+    border: 2px solid #E5C9C5;
+    /* outline: 2px solid #ca523f; */
+}
+input:focus{
+    outline: 2px solid #ca523f; 
+    border: none;
+}
+.btnaddplayer{
+    background-color: #E5C9C5;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.delete{
+    background-color: #E5C9C5;
+    /* padding: 10px 20px; */
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.material-symbols-outlined{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 60px; 
+    margin: 0;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: red;
+}
+
+.content{
+    width: 66%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #E5C9C5;
+    padding: 10px;
+    /* border: 2px solid grey; */
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+h4{
+    margin: 0;
+    font-weight: 400;
+}
+
+.name{
+    width: 35%;
+    /* border-right: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    /* align-items: flex-start; */
+}
+#date{
+    font-size: 12px;
+}
+.country{
+    width: 20%;
+    /* border-right: 1px solid green; */
+    display: flex;
+    align-items: center;
+}
+.score{
+    width: 23%;
+    /* border-right: 1px solid green; */
+    display: flex;
+    align-items: center;
+}
+.items{
+    display: flex;
+    display: flex;
+    align-items: center;
+}
+
+.incbtn{
+    color:black;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 60px; 
+    margin: 0;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
