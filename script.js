@@ -51,7 +51,7 @@ function inc(ro) {
 
 function dec(ro) {
     var r = document.getElementById(`score${ro}`)
-    if(r.innerText == 0)
+    if(r.innerText <= 5)
     {
         r.innerText = 0
     }else{
